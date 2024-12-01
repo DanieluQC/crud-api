@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { ListaProductoComponent } from './components/lista-producto/lista-producto.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { ListaUsuarioComponent } from './components/lista-usuario/lista-usuario.component';
+import { ListaCategoriaComponent } from './components/lista-categoria/lista-categoria.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ListaProductoComponent
+    ListaProductoComponent,
+    ListaUsuarioComponent,
+    ListaCategoriaComponent
   ],
   imports: [
     BrowserModule,
