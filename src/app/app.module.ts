@@ -8,12 +8,14 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ListaUsuarioComponent } from './components/lista-usuario/lista-usuario.component';
 import { ListaCategoriaComponent } from './components/lista-categoria/lista-categoria.component';
+import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListaProductoComponent,
     ListaUsuarioComponent,
-    ListaCategoriaComponent
+    ListaCategoriaComponent,
+    DetalleProductoComponent
   ],
   imports: [
     BrowserModule,
